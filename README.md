@@ -19,3 +19,13 @@ docker run --rm \
 ``` 
 
 This action will create a `./dist` folder with all build files. Enjoy!
+
+### dh-virtualenv
+To read more about dh-virtualenv click [here](https://github.com/spotify/dh-virtualenv).
+
+### Versions
+There are a lot of combinations of ubuntu core and python interpreter. <br>
+We mark builds with pattern **<ubuntu_version>_<python_version>** <br>
+You can look for all tags [here](https://hub.docker.com/r/elfushka/python_deb_builder/tags).
+
+**Current version**: 16.04_3.6

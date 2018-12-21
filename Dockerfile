@@ -24,6 +24,6 @@ RUN add-apt-repository ppa:sebdoido/spotify-dh-virtualenv-stable-1.0 \
 
 VOLUME /build
 WORKDIR /build
-COPY ./entrypoint.sh .
+COPY entrypoint.sh /usr/local/bin
 
-ENTRYPOINT ["bash", "entrypoint.sh"]
+ENTRYPOINT ["entrypoint.sh"]
